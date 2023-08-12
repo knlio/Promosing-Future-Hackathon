@@ -1,6 +1,5 @@
 import os
 import openai
-
 openai.api_key = os.getenv("OPENAI_API_KEY")
 response = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
@@ -20,3 +19,4 @@ response = openai.ChatCompletion.create(
   frequency_penalty=0,
   presence_penalty=0
 )
+
