@@ -1,5 +1,3 @@
-pip install openai
-streamlit run mycoach.py
 import os
 import openai
 
